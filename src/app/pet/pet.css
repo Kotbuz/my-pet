@@ -1,0 +1,43 @@
+.pet-card {
+    border: 1px solid #63642e;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    background: rgb(236, 236, 195);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.hug-btn,
+.reset-btn {
+    color: whitesmoke;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.reset-btn {
+    background-color: #af4c4c;
+}
+
+.hug-btn {
+    background-color: #56a759;
+}
+
+.reset-btn:hover {
+    background-color: #914141;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.hug-btn:hover {
+    background-color: #295e2a;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}

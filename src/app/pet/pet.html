@@ -1,0 +1,9 @@
+<div class="pet-card">
+    <h2>{{ petName }}</h2>
+    <p>Вид: {{ petType }}<br>Возраст: {{ petAge }}</p>
+    <span>Кол-во обнимашек: {{ hugs }}</span>
+    <div class="buttons">
+        <button class="hug-btn" (click)="addHug()">Обнять</button>
+        <button class="reset-btn" (click)="resetHugs()">Сбросить</button>
+    </div>
+</div>
